@@ -7,27 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C519F711EC460B8000E1E48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C519F701EC460B8000E1E48 /* AppDelegate.m */; };
-		6C519F741EC460B8000E1E48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C519F731EC460B8000E1E48 /* main.m */; };
-		6C519F771EC460B8000E1E48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C519F761EC460B8000E1E48 /* ViewController.m */; };
-		6C519F791EC460B8000E1E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C519F781EC460B8000E1E48 /* Assets.xcassets */; };
-		6C519F7C1EC460B8000E1E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C519F7A1EC460B8000E1E48 /* Main.storyboard */; };
+		6C519FE81EC4671A000E1E48 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C519FE71EC4671A000E1E48 /* main.c */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6C519FE21EC4671A000E1E48 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		6C519F6C1EC460B8000E1E48 /* RXSocketChatServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXSocketChatServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C519F6F1EC460B8000E1E48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6C519F701EC460B8000E1E48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6C519F731EC460B8000E1E48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6C519F751EC460B8000E1E48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6C519F761EC460B8000E1E48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6C519F781EC460B8000E1E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6C519F7B1EC460B8000E1E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6C519F7D1EC460B8000E1E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C519FE41EC4671A000E1E48 /* RXSocketChatServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RXSocketChatServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C519FE71EC4671A000E1E48 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6C519F691EC460B8000E1E48 /* Frameworks */ = {
+		6C519FE11EC4671A000E1E48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,55 +38,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6C519F631EC460B8000E1E48 = {
+		6C519FDB1EC4671A000E1E48 = {
 			isa = PBXGroup;
 			children = (
-				6C519F6E1EC460B8000E1E48 /* RXSocketChatServer */,
-				6C519F6D1EC460B8000E1E48 /* Products */,
+				6C519FE61EC4671A000E1E48 /* RXSocketChatServer */,
+				6C519FE51EC4671A000E1E48 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6C519F6D1EC460B8000E1E48 /* Products */ = {
+		6C519FE51EC4671A000E1E48 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6C519F6C1EC460B8000E1E48 /* RXSocketChatServer.app */,
+				6C519FE41EC4671A000E1E48 /* RXSocketChatServer */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6C519F6E1EC460B8000E1E48 /* RXSocketChatServer */ = {
+		6C519FE61EC4671A000E1E48 /* RXSocketChatServer */ = {
 			isa = PBXGroup;
 			children = (
-				6C519F6F1EC460B8000E1E48 /* AppDelegate.h */,
-				6C519F701EC460B8000E1E48 /* AppDelegate.m */,
-				6C519F751EC460B8000E1E48 /* ViewController.h */,
-				6C519F761EC460B8000E1E48 /* ViewController.m */,
-				6C519F781EC460B8000E1E48 /* Assets.xcassets */,
-				6C519F7A1EC460B8000E1E48 /* Main.storyboard */,
-				6C519F7D1EC460B8000E1E48 /* Info.plist */,
-				6C519F721EC460B8000E1E48 /* Supporting Files */,
+				6C519FE71EC4671A000E1E48 /* main.c */,
 			);
 			path = RXSocketChatServer;
-			sourceTree = "<group>";
-		};
-		6C519F721EC460B8000E1E48 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6C519F731EC460B8000E1E48 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6C519F6B1EC460B8000E1E48 /* RXSocketChatServer */ = {
+		6C519FE31EC4671A000E1E48 /* RXSocketChatServer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C519F801EC460B8000E1E48 /* Build configuration list for PBXNativeTarget "RXSocketChatServer" */;
+			buildConfigurationList = 6C519FEB1EC4671A000E1E48 /* Build configuration list for PBXNativeTarget "RXSocketChatServer" */;
 			buildPhases = (
-				6C519F681EC460B8000E1E48 /* Sources */,
-				6C519F691EC460B8000E1E48 /* Frameworks */,
-				6C519F6A1EC460B8000E1E48 /* Resources */,
+				6C519FE01EC4671A000E1E48 /* Sources */,
+				6C519FE11EC4671A000E1E48 /* Frameworks */,
+				6C519FE21EC4671A000E1E48 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -93,81 +79,55 @@
 			);
 			name = RXSocketChatServer;
 			productName = RXSocketChatServer;
-			productReference = 6C519F6C1EC460B8000E1E48 /* RXSocketChatServer.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 6C519FE41EC4671A000E1E48 /* RXSocketChatServer */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6C519F641EC460B8000E1E48 /* Project object */ = {
+		6C519FDC1EC4671A000E1E48 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "https://github.com/srxboys";
 				TargetAttributes = {
-					6C519F6B1EC460B8000E1E48 = {
+					6C519FE31EC4671A000E1E48 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = PV5ANGHDB3;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 6C519F671EC460B8000E1E48 /* Build configuration list for PBXProject "RXSocketChatServer" */;
+			buildConfigurationList = 6C519FDF1EC4671A000E1E48 /* Build configuration list for PBXProject "RXSocketChatServer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 6C519F631EC460B8000E1E48;
-			productRefGroup = 6C519F6D1EC460B8000E1E48 /* Products */;
+			mainGroup = 6C519FDB1EC4671A000E1E48;
+			productRefGroup = 6C519FE51EC4671A000E1E48 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6C519F6B1EC460B8000E1E48 /* RXSocketChatServer */,
+				6C519FE31EC4671A000E1E48 /* RXSocketChatServer */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		6C519F6A1EC460B8000E1E48 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6C519F791EC460B8000E1E48 /* Assets.xcassets in Resources */,
-				6C519F7C1EC460B8000E1E48 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		6C519F681EC460B8000E1E48 /* Sources */ = {
+		6C519FE01EC4671A000E1E48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C519F771EC460B8000E1E48 /* ViewController.m in Sources */,
-				6C519F741EC460B8000E1E48 /* main.m in Sources */,
-				6C519F711EC460B8000E1E48 /* AppDelegate.m in Sources */,
+				6C519FE81EC4671A000E1E48 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		6C519F7A1EC460B8000E1E48 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6C519F7B1EC460B8000E1E48 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		6C519F7E1EC460B8000E1E48 /* Debug */ = {
+		6C519FE91EC4671A000E1E48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,7 +175,7 @@
 			};
 			name = Debug;
 		};
-		6C519F7F1EC460B8000E1E48 /* Release */ = {
+		6C519FEA1EC4671A000E1E48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,28 +216,18 @@
 			};
 			name = Release;
 		};
-		6C519F811EC460B8000E1E48 /* Debug */ = {
+		6C519FEC1EC4671A000E1E48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = PV5ANGHDB3;
-				INFOPLIST_FILE = RXSocketChatServer/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.ghs.app.RXSocketChatServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		6C519F821EC460B8000E1E48 /* Release */ = {
+		6C519FED1EC4671A000E1E48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = PV5ANGHDB3;
-				INFOPLIST_FILE = RXSocketChatServer/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.ghs.app.RXSocketChatServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -285,24 +235,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6C519F671EC460B8000E1E48 /* Build configuration list for PBXProject "RXSocketChatServer" */ = {
+		6C519FDF1EC4671A000E1E48 /* Build configuration list for PBXProject "RXSocketChatServer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C519F7E1EC460B8000E1E48 /* Debug */,
-				6C519F7F1EC460B8000E1E48 /* Release */,
+				6C519FE91EC4671A000E1E48 /* Debug */,
+				6C519FEA1EC4671A000E1E48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C519F801EC460B8000E1E48 /* Build configuration list for PBXNativeTarget "RXSocketChatServer" */ = {
+		6C519FEB1EC4671A000E1E48 /* Build configuration list for PBXNativeTarget "RXSocketChatServer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C519F811EC460B8000E1E48 /* Debug */,
-				6C519F821EC460B8000E1E48 /* Release */,
+				6C519FEC1EC4671A000E1E48 /* Debug */,
+				6C519FED1EC4671A000E1E48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6C519F641EC460B8000E1E48 /* Project object */;
+	rootObject = 6C519FDC1EC4671A000E1E48 /* Project object */;
 }

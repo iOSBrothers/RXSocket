@@ -58,6 +58,7 @@
 		6C519FBD1EC46131000E1E48 /* RXSocketChatClient */ = {
 			isa = PBXGroup;
 			children = (
+				6C519FEE1EC4689E000E1E48 /* RXChat */,
 				6C519FC11EC46131000E1E48 /* AppDelegate.h */,
 				6C519FC21EC46131000E1E48 /* AppDelegate.m */,
 				6C519FC41EC46131000E1E48 /* ViewController.h */,
@@ -77,6 +78,29 @@
 				6C519FBF1EC46131000E1E48 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C519FEE1EC4689E000E1E48 /* RXChat */ = {
+			isa = PBXGroup;
+			children = (
+				6C519FEF1EC468D4000E1E48 /* UDP */,
+				6C519FF01EC468D4000E1E48 /* TCP */,
+			);
+			path = RXChat;
+			sourceTree = "<group>";
+		};
+		6C519FEF1EC468D4000E1E48 /* UDP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UDP;
+			sourceTree = "<group>";
+		};
+		6C519FF01EC468D4000E1E48 /* TCP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TCP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +336,7 @@
 				6C519FD41EC46131000E1E48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
